@@ -177,6 +177,7 @@ def gradDescentWRand(x, y, m, num_iters=1500, alpha=0.0001):
 
 # Create Model
 def createModel(x, w):
+    # print 'X = ', x
     y = np.zeros(len(x))
     y = np.mat(y)
     y = y.T  # prepare y
